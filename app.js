@@ -1,4 +1,4 @@
-console.log("app.js, v4")
+console.log("app.js, v5")
 
 const readline = require("node:readline/promises");
 
@@ -28,7 +28,7 @@ async function getAnswer(){
     }
     else if (answer.toUpperCase() === "N"){
         console.log("\nThat's a shame. See you next time !\n")
-        return ;
+        return
     }
     else{
         console.log("Please enter a valid caracter.")
