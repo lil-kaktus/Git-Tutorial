@@ -1,4 +1,4 @@
-console.log("index.js, v5")
+console.log("index.js, v6")
 
 let admin = {
     "user" : {
@@ -12,4 +12,4 @@ let admin = {
 
 console.log(`${admin.user.name}'s e-mail address is ${admin.user.mail}.`)
 console.log(`${admin.user.name} permissions are : ${admin.authorizations}`)
-console.log(`${admin.name}'s last connection was : ${admin.lastConnection}.`)
+console.log(`${admin.user.name}'s last connection was : ${admin.lastConnection}.`)

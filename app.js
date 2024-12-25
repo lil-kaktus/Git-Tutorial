@@ -1,4 +1,4 @@
-console.log("app.js, v5")
+console.log("app.js, v6")
 
 const readline = require("node:readline/promises");
 
