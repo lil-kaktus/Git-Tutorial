@@ -1,4 +1,5 @@
 console.log("app.js, v6")
+console.log("(bug fixed !)")
 
 const readline = require("node:readline/promises");
 
