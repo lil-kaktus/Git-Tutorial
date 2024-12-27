@@ -13,6 +13,8 @@ const prompt = async (message) => {
     return answer;
 };
 
+let score = 0;
+
 async function getAnswer(){
     const answer = await prompt("Would you like to try your luck ? (Y/N) ")
 
@@ -20,11 +22,14 @@ async function getAnswer(){
         let dice = Math.floor(Math.random() * 6) + 1;
 
         if(dice === 6){
-            console.log(`\nJackpot ! You rolled a ${dice} !\n`)
+            console.log(`\nJackpot ! You rolled a ${dice} !`)
         }
         else{
-            console.log(`\nYou rolled a ${dice}.\n`)
+            console.log(`\nYou rolled a ${dice}.`)
         }
+
+        score += dice;
+        console.log(`Score : ${score}.\n`)
     }
     else if (answer.toUpperCase() === "N"){
         console.log("\nThat's a shame. See you next time !\n")
