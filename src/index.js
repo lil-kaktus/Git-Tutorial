@@ -1,4 +1,5 @@
 console.log("index.js, v6")
+console.log("another bug fixed !")
 
 let admin = {
     "user" : {
