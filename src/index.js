@@ -6,8 +6,8 @@ let admin = {
         "name" : "Admin",
         "mail" : "a.dmin@gmail.com"
     },
-    "password" : "admin",
-    "authorizations" : "1",
+    "password" : "administrator123456",
+    "authorizations" : "3",
     "lastConnection" : new Date()
 }
 
